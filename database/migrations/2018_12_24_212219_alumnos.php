@@ -22,7 +22,7 @@ class Alumnos extends Migration
             $table->string('email', 50);
             $table->string('telC', 15)->nullable();
             $table->string('telP',15)->nullable();
-            $table->date('fn')->nullable();
+            $table->date('fechaNac')->nullable();
             $table->integer('status');
             
             $table->timestamps();
